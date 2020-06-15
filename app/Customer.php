@@ -10,4 +10,6 @@ class Customer extends Model
     use SoftDeletes;
 
     protected $guarded = [];
+
+    
 }
