@@ -63,7 +63,7 @@
                                 @forelse ($products as $product)
                                 <tr>
                                     <td>{{ $product->product_name }}</td>
-                                    <td>{{ $product->category_id }}</td>
+                                    <td>{{ $product->category->category_name }}</td>
                                     <td>{{ $product->description }}</td>
                                     <td>{{ $product->stock }}</td>
                                     <td>{{ $product->price }}</td>
